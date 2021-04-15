@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department" parallel="tests" thread-count="2">
+	<listeners>
+		<listener class-name="testA.Listeners"></listener>
+	</listeners>
+	
+ 	 <test  name="Home loan">
+ 	   <classes>
+    	  <class name="testA.ForthClass"/>
+    	  <class name="testA.firstClass"/>
+    	</classes>
+  	</test> <!-- Test -->
+ 
+ 
+ <test name="Car Loan">
+    <classes>
+      <class name="testA.SecondClass"> </class>
+   </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
