@@ -1,4 +1,3 @@
-
 public class VerifyPrimeExample {
 
 	public static void main(String args[]){    
